@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- IMPORTANT ---
     // Replace with your own Gemini API key (for testing only).
-    const API_KEY = "AIzaSyCLgVaK858QD4c6VHDm-6U0N7UsblknF_c";
+    const API_KEY = "YOUR_API_KEY";
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 
@@ -109,3 +109,4 @@ const appendMessage = (message, sender) => {
         }
     });
 });
+
